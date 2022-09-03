@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.TheBestCalculator" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#92140C</item>
+        <item name="colorPrimary">#F25757</item>
         <item name="colorPrimaryVariant">#92140C</item>
         <item name="colorOnPrimary">#FFF8F0</item>
         <!-- Secondary brand color. -->
@@ -10,7 +10,6 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/white</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
         <!-- Customize your theme here. -->
     </style>
 
