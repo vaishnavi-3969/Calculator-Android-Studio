@@ -20,8 +20,8 @@
         tools:ignore="UnknownId">
 
         <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="84dp">
 
             <Button
                 android:id="@+id/clearBTN0"
@@ -316,12 +316,12 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/circle"
+        android:contentDescription="Image"
         android:onClick="backspaceBTN"
         android:text="@string/backspace"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/backspace"
-        android:contentDescription="Image" />
+        app:srcCompat="@drawable/backspace" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
