@@ -211,14 +211,15 @@
 
             <Button
                 android:id="@+id/threeBTN"
-                style="@style/Widget.AppCompat.Button.Colored"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_margin="5dp"
                 android:layout_weight="@integer/material_motion_duration_long_1"
                 android:background="@drawable/circle"
                 android:onClick="threeBTN"
-                android:text="@string/three" />
+                android:text="@string/three"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/addBTN"
@@ -297,13 +298,16 @@
         android:layout_marginTop="10dp"
         android:allowUndo="false"
         android:autofillHints="false"
+        android:fontFamily="sans-serif-black"
         android:inputType="none"
         android:text="@string/display"
         android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F44336"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="LabelFor" />
@@ -316,12 +320,20 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/circle"
-        android:contentDescription="Image"
+        android:contentDescription="@string/image"
         android:onClick="backspaceBTN"
         android:text="@string/backspace"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/backspace" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="214dp"
+        android:layout_height="74dp"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="22dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
