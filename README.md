@@ -1,4 +1,3 @@
-# Calculator-Android-Studio![1668430110333](https://user-images.githubusercontent.com/80088403/201664417-6e29e49f-cc83-42d0-b7b9-f493ffdaee7e.jpg)
-![1668430110333](https://user-images.githubusercontent.com/80088403/201664418-eb6c1c45-9f97-4a10-9e4d-298e87eb179f.jpg)
-![1668430110359](https://user-images.githubusercontent.com/80088403/201664434-de567970-a607-409e-949e-7f9e57350c21.jpg)
-![1668430110359](https://user-images.githubusercontent.com/80088403/201664447-3c1c725f-0c27-4259-955f-515b397386ed.jpg)
+# Calculator-Android-Studio
+![1668430110333](https://user-images.githubusercontent.com/80088403/201664579-9bad6d33-dbe8-48e9-a19b-14d38dd10c5d.jpg)
+![1668430110359](https://user-images.githubusercontent.com/80088403/201664587-29f7e7a5-b54a-4d9b-afb5-5100dd4d03ac.jpg)
